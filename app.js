@@ -1,9 +1,10 @@
 const btn = document.querySelector("#btn");
 const txt_input = document.querySelector("#txt-input");
-console.log(txt_input)
+const output = document.querySelector("#output");
+
+
 function clicked() {
-    console.log("clicked");
-    console.log("input", txt_input.value);
+    output.innerText = "assassasa" + txt_input.value;
 }
 btn.addEventListener("click", clicked);
 
